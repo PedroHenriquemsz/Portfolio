@@ -1,0 +1,57 @@
+section{
+    padding-top: 60px;
+    font-family: 'Montserrat', sans-serif;
+
+    p{
+        font-size: 16;
+        font-weight: 400;
+    }
+
+    btn-primary{
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    h2{ 
+        font-weight: 500;
+        font-size: 36px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+.card{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+
+    .card-project{
+        display: flex;
+        flex-direction: column;
+        background-color: #F0F0F0;
+        justify-content: space-between;
+        width: fit-content;
+        padding: 10px;
+        
+        h3{
+            font-size: 18px;
+            font-weight: 600;
+            
+        }
+        .topics{
+            display: flex;
+            gap: 8px;
+        }
+
+        span{
+            padding: 3px;
+            gap: 1rem;
+            background-color: #8455FF;
+            color: #DBFFFF;
+            border-radius: 50em;
+        }
+    }
+
+}
+   
+}
